@@ -30,95 +30,39 @@
     appearance: none !important;
     border-radius: 0;
   }
- /* html{
-      display: table;
-      margin: auto;
-  }*/
 
-div{
-  margin:auto;
-}
-#cube1{
 
-  width:400px;
-  height:400px;
-  background-color: rgb(82, 240, 240);
-  position:relative;
-  left:10px;
-  top:10px;
-}
-
-#cube2{
-  width:380px;
-  height:380px;
-  background-color: rgb(27, 65, 65);
-  
-}
-
-#cube3{
-  width:360px;
-  height:360px;
-  background-color: rgb(94, 117, 111);
- 
-}
-
-#cube4{
-  width:340px;
-  height:340px;
-  background-color: rgb(47, 53, 53);
-  
-}
-
-#cube5{
-  width: 320px;
-  height:320px;
-  background-color: rgb(39, 71, 71);
-}
- 
-
-#cube6{
-  width: 300px;
-  height: 300px;
-  background-color: rgb(14, 209, 209);
-  position:absolute;
-  right:0;
-  bottom:0;
-}
-
-#cube7{
-  width:280px;
-  height:280px;
-  background-color: rgb(56, 68, 68);
- 
- 
-}
-
-#cube8{
-  width:260px;
-  height:260px;
-  background-color: rgb(149, 185, 185);
-  
-}
-
-#cube9{
-  width:240px;
-  height:240px;
-  background-color: rgb(43, 49, 49);
-  position:absolute;
-  top:0;
-  left:0;
+#section1{
+  background-image: url("wp2593330.jpg");
 }
 section{
-  position:relative;
+  min-height: 100vh;
+}
+input[type=text] {
+  border: 1px solid black;
+}
+button{
+  width:50px;
+  height:50px;
+  background-color: red;
+  color: black;
+}
+#imgholder{
+  display:block;
   width:100%;
   height:100vh;
-  border-bottom: 1px solid red;
+  object-fit: contain;
+  z-index: -1;
+  position:absolute;
 }
-section button{
-  position: absolute;
-  right: 30px;
-  bottom:30px;
-  width:200px;
-  height:60px;
-  background-color: blue;
+.background-holder{
+  padding:20px;
+  border:10px solid rgba(15, 80, 95, 0.5);
+  background-image: url("cancada.jpg");
+  background-size: 200px 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color:black;
+  background-clip:padding-box;
+  color:white;
 }
