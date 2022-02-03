@@ -1,36 +1,38 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: none;
-   /* box-sizing: border-box;*/
-    background: transparent;
-    font-family: inherit;
-  }
-  a{
-    text-decoration: none;
-  }
-  a img {
-    border: none;
-  }
-  
-  button,
-  a {
-    cursor: pointer;
-    color: inherit;
-  }
-  
-  textarea {
-    resize: none;
-  }
-  
-  button,
-  textarea,
-  select {
-    appearance: none !important;
-    border-radius: 0;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  /* box-sizing: border-box;*/
+  background: transparent;
+  font-family: inherit;
+}
+a{
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
 
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 #section1{
   background-image: url("wp2593330.jpg");
@@ -65,4 +67,96 @@ button{
   background-color:black;
   background-clip:padding-box;
   color:white;
+}
+section.bg-image img{
+  position: absolute;
+  display:block;
+  top:0;
+  right:0;
+  overflow: hidden;
+  width:100%;
+  height:100vh;
+  object-fit:cover;
+  z-index:-1;
+}
+
+section.bg-image button{
+  position: absolute;
+  bottom:0;
+  left:50%;
+  width: 200px;
+  height: 60px;
+  margin:40px;
+  border-radius: 50px;
+  transform:translateX(-50%);
+  background-color: #09CED9;
+}
+
+section.bg-image h1{
+  font-size: 100px;
+  margin:40px;
+  font-family: 'Sedgwick Ave', cursive;
+  color:rgb(233, 204, 204);
+}
+
+#about{
+  min-height: unset; 
+  background-color: rgb(133, 125, 125);
+} 
+
+#about article{
+  width:100%;
+  max-width:400px;
+  padding:80px 20px;
+  margin:0 auto;
+  color:white;
+}
+
+#services{
+  text-align:center;
+  }
+
+#services ul li{
+  padding-bottom:10px;
+}
+#services{
+  padding:80px 0px;
+  background-image:url("guitar.jpg") ;
+  background-size: cover;
+  background-position: center center;
+}
+
+#contact{
+  background-color: skyblue;
+}
+#contact form{
+  width:100%;
+  max-width:400px;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+#contact input,
+#contact label{
+  display: block;
+  width:100%;
+}
+
+#contact label{
+  font-size:12px;
+  padding-bottom:10px;
+}
+#contact input{
+  height: 60px;
+  padding: 0px 10px;
+  margin-bottom: 30px;
+  font-size:10px;
+  background-color: white;
+}
+#contact button{
+  width: 200px;
+  height: 60px;
+  margin:40px;
+  border-radius: 50px;
+  transform:translateX(-50%);
+  background-color: #09CED9;
 }
